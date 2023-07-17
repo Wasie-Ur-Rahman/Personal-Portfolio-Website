@@ -9,20 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "boxicons": "^2.1.4",
+
+
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.8",
-    "framer-motion": "^10.12.18",
     "intersection-observer": "^0.12.2",
     "next": "13.4.8",
-    "react": "^18.2.0",
-    "react-animate-on-scroll": "^2.1.7",
+    "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-easy-scroll-effect": "^1.0.11",
     "react-intersection-observer": "^9.5.2",
-    "react-onscroll-animate": "^0.0.6",
-    "scrollreveal": "^4.0.9",
     "tailwindcss-animated": "^1.0.1"
   },
   "devDependencies": {
