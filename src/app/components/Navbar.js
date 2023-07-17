@@ -28,9 +28,9 @@ const router = useRouter()
    
     {
         open ===true ? (
-          <div className='flex flex-col w-screen h-screen bg-[#f7f5f5] opacity-80 fixed z-50'>
+          <div className='flex flex-col w-screen h-screen  bg-black opacity-90 fixed z-50'>
           <div className='flex flex-col-reverse w-screen h-full justify-center items-center z-20'>
-            <div className='flex flex-col  items-center w-80  space-y-9 bg-[#22433f] rounded-xl z-30 shadow-xl shadow-gray-300  '>
+            <div className='flex flex-col  items-center w-80  space-y-9 bg-[#22433f] rounded-xl z-30 shadow-xl shadow-black  '>
             <div className='flex flex-row w-full items-center mt-2  justify-end '>
            
            <button className='mr-2' onClick={(e)=>{SetOpen(false)}}>
@@ -53,9 +53,9 @@ const router = useRouter()
           </div>
         )
         :
-        ( <div className='flex flex-row h-20 w-screen bg-[#f7f5f5] opacity-90 rounded-sm shadow-inner shadow-slate-200 fixed z-50'>
+        ( <div className='flex flex-row h-20 w-screen bg-black opacity-90 rounded-sm shadow-inner shadow-slate-200 fixed z-50'>
         <div className='flex flex-row h-full w-1/4 items-center justify-center '>
-        <a  href='#' className='font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-[#22433f] from-50%  to-[#917868] to-50% ...  mobile:ml-4'>Resume</a>
+        <a  href='#' className='font-bold text-xl bg-gradient-to-r bg-clip-text text-transparent from-[#22433f] from-50%  to-white to-50% ...  mobile:ml-4'>Resume</a>
         </div>
         <div className='flex flex-row-reverse w-[1350px]  folding_mobile:hidden mobile:hidden tablet:hidden '>
         <div className=' flex flex-row w-3/4 justify-evenly items-center tablet_large:w-11/12 '>
@@ -77,7 +77,7 @@ const router = useRouter()
       </div>)
       }
 
-<section id="Education" ref={scrollTargetRef} class="  flex flex-row h-screen mobile:h-[1000px] w-screen bg-[#22433f]  ">
+<section id="Education" ref={scrollTargetRef} class="  flex flex-row h-screen mobile:h-[1000px] w-screen bg-black  ">
    <div className='flex flex-col h-full w-2/5   mobile:w-full tablet:w-full laptops:w-full tablet_large:w-full justify-center items-end bg-slate-80'>
     <div className='flex flex-col h-full w-3/4  mobile:w-full tablet:w-full tablet:mt-0 mobile:mt-0 tablet_large:w-full laptops:w-full laptops:justify-center laptops:items-center justify-center tablet:justify-start tablet_large:justify-center tablet_large:items-center tablet_large:mt-0 mobile:justify-start mobile:items-center tablet:items-center tablet:space-y-4 space-y-5 mt-10' >
     <p className=' animate-fade-right  animate-ease-in-out animate-duration-1000 text-4xl font-bold text-[#36a76e] mobile:mt-32 tablet:mt-32 mobile:text-2xl tablet:text-2xl'>Hello, its me</p>
@@ -86,14 +86,14 @@ const router = useRouter()
    <br/>
 
    <div className='z-0 flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-1/4 animate-fade-right  animate-ease-in-out animate-duration-1000  animate-delay-1000 laptops:hidden desktops:hidden tablet_large:hidden 4k_screens:hidden '>
-      <img className='' src='/Alpha1.png'>
+      <img className='' src='/Alphaa.png'>
         
       </img>
      
      
       </div>
       <br/>
-   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And Im a Se Graduate</p>
+   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And I<span>'</span>m a Se Graduate</p>
    <br/>
    <p className='text-lg font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1800ms] animate-duration-1000 tablet:text-sm mobile:text-sm'>Graduated from Ss Case It with a Cgpa of 3.6 in Bsse</p>
    <br/>
@@ -126,7 +126,7 @@ const router = useRouter()
     <div className='flex flex-col h-full w-3/5   justify-center items-center bg-slate-80  animate-fade-right   animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
 
       <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-3/5   '>
-      <img  src='/Alpha1.png'>
+      <img  src='/Alphaa.png'>
         
       </img>
      
@@ -138,7 +138,7 @@ const router = useRouter()
      
 </section>
 
-<section id="Projects"  ref={scrollTargetRef} class=" h-screen mobile:h-[2000px] tablet:h-[2000px] 4k_screens:h-[1000px] tablet_large:h-[1200px] laptops:h-[1200px] bg-[#22433f] border border-[#36a76e] ">
+<section id="Projects"  ref={scrollTargetRef} class=" h-screen mobile:h-[2000px] tablet:h-[2000px] 4k_screens:h-[1000px] tablet_large:h-[1200px] laptops:h-[1200px] bg-black border border-[#36a76e] ">
   <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out animate-rotate-x animate-infinite mobile:text-3xl '>Top</span>
   <span className='text-5xl font-bold  text-[#f7f5f5] animate-ease-in-out animate-rotate-x animate-infinite mobile:text-3xl'>Projects</span>
@@ -166,7 +166,7 @@ const router = useRouter()
 
 </section>
 
-<section id="Skills"  ref={scrollTargetRef} class="h-screen  bg-[#22433f] border tablet:h-[1400px] mobile:h-[1200px] desktops:h-[900px] 4k_screens:h-[1150px] border-[#36a76e] ">
+<section id="Skills"  ref={scrollTargetRef} class="h-screen  bg-black border tablet:h-[1400px] mobile:h-[1200px] desktops:h-[900px] 4k_screens:h-[1150px] border-[#36a76e] ">
 <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out animate-rotate-x animate-infinite from-[#36a76e] text-transparent  bg-gradient-to-r bg-clip-text from-50% to-[#f7f5f5] to-50%   mobile:text-3xl'>Skills</span>
   </div>
@@ -188,7 +188,7 @@ const router = useRouter()
   
 </section>
 
-<section id="Achievements"  ref={scrollTargetRef} class="h-screen bg-[#22433f] border-[#36a76e] mobile:h-[1000px] laptops:h-[1000px] tablet_large:h-[1100px] tablet:h-[1000px] border">
+<section id="Achievements"  ref={scrollTargetRef} class="h-screen bg-black  border-[#36a76e] mobile:h-[1000px] laptops:h-[1000px] tablet_large:h-[1100px] tablet:h-[1000px] border">
 <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out  animate-infinite from-[#36a76e] text-transparent  bg-gradient-to-r bg-clip-text from-50% to-[#f7f5f5] to-50% animate-rotate-x  mobile:text-3xl '>Achievements</span>
   </div>
@@ -208,7 +208,7 @@ for securing GPA above 3.7</span>
  </div></div>
 </section>
 
-<section id="Certifications"  ref={scrollTargetRef} class="h-screen bg-[#22433f] mobile:h-[1800px] tablet:h-[1800px] desktops:h-[1000px] 4k_screens:h-[1000px] border-[#36a76e]">
+<section id="Certifications"  ref={scrollTargetRef} class="h-screen bg-black  mobile:h-[1800px] tablet:h-[1800px] desktops:h-[1000px] 4k_screens:h-[1000px] border-[#36a76e]">
 <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out  animate-infinite from-[#36a76e] text-transparent  bg-gradient-to-r bg-clip-text from-50% to-[#f7f5f5] to-50%  animate-rotate-x  mobile:text-3xl '>Certifications</span>
   </div>
@@ -241,7 +241,7 @@ for securing GPA above 3.7</span>
   </div>
 </section>
 
-<section id="Experience"  ref={scrollTargetRef} class="h-screen bg-[#22433f] border border-[#36a76e] 4k_screens:h-[900px] mobile:h-[1000px] tablet:h-[800px] laptops:h-[800px] desktops:h-[800px] ">
+<section id="Experience"  ref={scrollTargetRef} class="h-screen bg-black  border border-[#36a76e] 4k_screens:h-[900px] mobile:h-[1000px] tablet:h-[800px] laptops:h-[800px] desktops:h-[800px] ">
 <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out  animate-infinite from-[#36a76e] text-transparent  bg-gradient-to-r bg-clip-text from-50% to-[#f7f5f5] to-50%  animate-rotate-x  mobile:text-3xl'>Experience</span>
   </div>
@@ -261,7 +261,7 @@ vercel</li></ul>
       <div className='flex flex-col '> </div>
   </div>
 </section>
-<div className='flex flex-row h-32 w-full bg-[#36a76e] '>
+<div className='flex flex-row h-32 w-full bg-black '>
 <div className='flex flex-row w-full h-full justify-evenly items-center'>
 <span className='text-[#22433f] text-xl font-bold mobile:text-lg'>Contact me at :</span>
 
