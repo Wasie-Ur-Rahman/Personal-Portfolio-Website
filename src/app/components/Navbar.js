@@ -92,7 +92,7 @@ const router = useRouter()
      
       </div>
       <br/>
-   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And I<span>'</span>m a Se Graduate</p>
+   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And Im a Se Graduate</p>
    <br/>
    <p className='text-lg font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1800ms] animate-duration-1000 tablet:text-sm mobile:text-sm'>Graduated from Ss Case It with a Cgpa of 3.6 in Bsse</p>
    <br/>
@@ -284,3 +284,4 @@ vercel</li></ul>
   
   )
 }
+ 
