@@ -1,6 +1,5 @@
 "use client";
 import React from 'react'
-
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useRef } from 'react';
@@ -93,10 +92,10 @@ const router = useRouter()
      
       </div>
       <br/>
-   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And I<span>'</span>m a Se Graduate</p>
+   {/* <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And Im a Se Graduate</p>
    <br/>
    <p className='text-lg font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1800ms] animate-duration-1000 tablet:text-sm mobile:text-sm'>Graduated from Ss Case It with a Cgpa of 3.6 in Bsse</p>
-   <br/>
+   <br/> */}
    <div className='flex flex-row max-h-fit max-w-fit space-x-10  animate-fade-right mobile:space-x-12   animate-ease-in-out animate-delay-[2200ms] animate-duration-1000'>
    <a className='flex rounded-full h-10 w-10  border-[#36a76e] border-[3px] justify-center items-center animate-wiggle-more animate-infinite' href="mailto:wasieurrahman24@gmail.com"> 
    <img src='/mail.png'></img>
@@ -285,3 +284,4 @@ vercel</li></ul>
   
   )
 }
+ 
