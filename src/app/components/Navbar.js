@@ -85,16 +85,16 @@ const router = useRouter()
    <br/>
 
    <div className='z-0 flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-1/4 animate-fade-right  animate-ease-in-out animate-duration-1000  animate-delay-1000 laptops:hidden desktops:hidden tablet_large:hidden 4k_screens:hidden '>
-      <img className='' src='/Alphaa.png'>
+      <img className='' src='/Alpha1.png'>
         
       </img>
      
      
       </div>
       <br/>
-   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And Im a Se Graduate</p>
+   <p className='text-4xl font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1200ms] animate-duration-1000 tablet:text-2xl mobile:text-2xl'>And I&apos;m a Se Graduate</p>
    <br/>
-   <p className='text-lg font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1800ms] animate-duration-1000 tablet:text-sm mobile:text-sm'>Graduated from Ss Case It with a Cgpa of 3.6 in Bsse</p>
+   <p className='text-lg font-bold text-[#36a76e] animate-fade-right   animate-ease-in-out animate-delay-[1800ms] animate-duration-1000 tablet:text-sm mobile:text-sm'>Graduated from Ss Case It with a Cgpa of 3.6 in BSSE</p>
    <br/>
    <div className='flex flex-row max-h-fit max-w-fit space-x-10  animate-fade-right mobile:space-x-12   animate-ease-in-out animate-delay-[2200ms] animate-duration-1000'>
    <a className='flex rounded-full h-10 w-10  border-[#36a76e] border-[3px] justify-center items-center animate-wiggle-more animate-infinite' href="mailto:wasieurrahman24@gmail.com"> 
@@ -125,7 +125,7 @@ const router = useRouter()
     <div className='flex flex-col h-full w-3/5   justify-center items-center bg-slate-80  animate-fade-right   animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
 
       <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-3/5   '>
-      <img  src='/Alphaa.png'>
+      <img  src='/Alpha1.png'>
         
       </img>
      
@@ -148,7 +148,7 @@ const router = useRouter()
     <Cards image={"/nfto.jpg"} name={"Nft Marketplace"} Discription={"Developed a Next.js website using React, JSX, IPFS, Solidity-based ERC-721 contracts, Firebase, Tailwind CSS, and the Goerli faucet. The site includes minting, selling, and listing functionalities for NFTs, with a futuristic design and responsive layout."} ></Cards> 
     <Cards image={"/Hr.jpg"} name={"Hr Management System"} Discription={"Developed a website using Next.js, React framework, JSX, Tailwind CSS, and Supabase as the back-end. The website includes features such as admin-created appraisal sessions, employee answers, employee registration, departmental information, and more."}></Cards> 
     <Cards image={"/funds.jpg"} name={"Fundraising Website"} Discription={"Developed a fundraising website using React, JSX, Bootstrap, and MongoDB. The website includes features like donating to fundraisers, receiving notifications, setting up recurring donations, and creating personal fundraisers."}></Cards> 
-    <Cards image={"/blood.jpg"} name={"Blood Bank Management"} Discription={"Developed a Blood Bank Management System using C# and Windows Forms. The system includes two roles: Admin and User. The Admin can save, edit, and delete users, while the User can manage patients, donors, blood stock, blood donation, and blood transfer."}></Cards> 
+    <Cards image={"/checklist.jpg"} name={"Document Verifier"} Discription={"Developed document verifying website using React.js (Front-End), JSX,Bootstrap, and Firebase (Back-End). The website consists of a verifierwhich is tasked with verifying all the documents that are sent to it by multiple issuers."}></Cards> 
    
    
   </div>
@@ -156,7 +156,7 @@ const router = useRouter()
     <Cards image={"/nfto.jpg"} name={"Nft Marketplace"} link={"https://github.com/Wasie-Ur-Rahman/NFT-Marketplace"} Discription={"Click for Details"} ></Cards> 
     <Cards image={"/Hr.jpg"} name={"Hr Management System"} link={"https://github.com/Wasie-Ur-Rahman/Hr-Management-System-Intern-Project-"} Discription={"Click for Details"} ></Cards> 
     <Cards image={"/funds.jpg"} name={"Fundraising Website"} link={"https://github.com/Wasie-Ur-Rahman"} Discription={"Click for Details"} ></Cards> 
-    <Cards image={"/blood.jpg"} name={"Blood Bank Management"} link={"https://github.com/Wasie-Ur-Rahman"}  Discription={"Click for Details"} ></Cards> 
+    <Cards image={"/checklist.jpg"} name={"Document Verifier"} link={"https://github.com/Wasie-Ur-Rahman/Document-Verifier"}  Discription={"Click for Details"} ></Cards> 
    
    
   </div>
@@ -207,7 +207,7 @@ for securing GPA above 3.7</span>
  </div></div>
 </section>
 
-<section id="Certifications"  ref={scrollTargetRef} class="h-screen bg-black  mobile:h-[1800px] tablet:h-[1800px] desktops:h-[1000px] 4k_screens:h-[1000px] border-[#36a76e]">
+<section id="Certifications"  ref={scrollTargetRef} class="h-screen bg-black  mobile:h-[1800px] tablet:h-[1800px] tablet_large:h-[1000px] desktops:h-[1000px] 4k_screens:h-[1000px] border-[#36a76e]">
 <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out  animate-infinite from-[#36a76e] text-transparent  bg-gradient-to-r bg-clip-text from-50% to-[#f7f5f5] to-50%  animate-rotate-x  mobile:text-3xl '>Certifications</span>
   </div>
