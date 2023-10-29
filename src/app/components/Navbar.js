@@ -76,7 +76,7 @@ const router = useRouter()
       </div>)
       }
 
-<section id="Education" ref={scrollTargetRef} class="  flex flex-row h-screen mobile:h-[1000px] w-screen bg-black  ">
+<section id="Education" ref={scrollTargetRef} class="  flex flex-row h-screen mobile:h-[1000px] 4k_screens:h-[1000px] w-screen bg-black  ">
    <div className='flex flex-col h-full w-2/5   mobile:w-full tablet:w-full laptops:w-full desktops:w-full tablet_large:w-full justify-center items-end bg-slate-80'>
     <div className='flex flex-col h-full w-3/4  mobile:w-full tablet:w-full tablet:mt-0 mobile:mt-0 tablet_large:w-full laptops:w-full desktops:w-full  laptops:justify-center desktops:justify-center laptops:items-center desktops:items-center justify-center tablet:justify-start tablet_large:justify-center tablet_large:items-center tablet_large:mt-0 mobile:justify-start mobile:items-center tablet:items-center tablet:space-y-4 space-y-5 mt-10' >
     <p className=' animate-fade-right  animate-ease-in-out animate-duration-1000 text-4xl font-bold text-[#36a76e] mobile:mt-32 tablet:mt-32 mobile:text-2xl tablet:text-2xl'>Hello, its me</p>
@@ -122,9 +122,9 @@ const router = useRouter()
     </div>
   
    </div>
-    <div className='flex flex-col h-full w-3/5   justify-center items-center bg-slate-80  animate-fade-right    animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
+    <div className='flex flex-col h-full w-3/5  4k_screens:mt-20  justify-center items-center bg-slate-80  animate-fade-right    animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
 
-      <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-3/5  4k_screens:w-1/4  4k_screens:mt-10 '>
+      <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center  w-3/5   '>
       <img  className='' src='/Alpha1.png'>
         
       </img>
