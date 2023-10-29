@@ -77,8 +77,8 @@ const router = useRouter()
       }
 
 <section id="Education" ref={scrollTargetRef} class="  flex flex-row h-screen mobile:h-[1000px] w-screen bg-black  ">
-   <div className='flex flex-col h-full w-2/5   mobile:w-full tablet:w-full laptops:w-full tablet_large:w-full justify-center items-end bg-slate-80'>
-    <div className='flex flex-col h-full w-3/4  mobile:w-full tablet:w-full tablet:mt-0 mobile:mt-0 tablet_large:w-full laptops:w-full laptops:justify-center laptops:items-center justify-center tablet:justify-start tablet_large:justify-center tablet_large:items-center tablet_large:mt-0 mobile:justify-start mobile:items-center tablet:items-center tablet:space-y-4 space-y-5 mt-10' >
+   <div className='flex flex-col h-full w-2/5   mobile:w-full tablet:w-full laptops:w-full desktops:w-full tablet_large:w-full justify-center items-end bg-slate-80'>
+    <div className='flex flex-col h-full w-3/4  mobile:w-full tablet:w-full tablet:mt-0 mobile:mt-0 tablet_large:w-full laptops:w-full desktops:w-full  laptops:justify-center desktops:justify-center laptops:items-center desktops:items-center justify-center tablet:justify-start tablet_large:justify-center tablet_large:items-center tablet_large:mt-0 mobile:justify-start mobile:items-center tablet:items-center tablet:space-y-4 space-y-5 mt-10' >
     <p className=' animate-fade-right  animate-ease-in-out animate-duration-1000 text-4xl font-bold text-[#36a76e] mobile:mt-32 tablet:mt-32 mobile:text-2xl tablet:text-2xl'>Hello, its me</p>
    <br/>
    <p className='text-5xl font-bold animate-fade-right   animate-ease-in-out animate-delay-700 animate-duration-1000 text-[#f7f5f5] tablet:text-3xl mobile:text-3xl'>Wasie Ur Rahman</p>
@@ -122,10 +122,10 @@ const router = useRouter()
     </div>
   
    </div>
-    <div className='flex flex-col h-full w-3/5   justify-center items-center bg-slate-80  animate-fade-right   animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
+    <div className='flex flex-col h-full w-3/5   justify-center items-center bg-slate-80  animate-fade-right    animate-ease-in-out animate-delay-[3000ms] animate-duration-1000 mobile:hidden tablet:hidden'>
 
-      <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-3/5   '>
-      <img  src='/Alpha1.png'>
+      <div className='flex rounded-3xl border-[3px] border-[#17ff8b] justify-center w-3/5  4k_screens:w-1/4  4k_screens:mt-10 '>
+      <img  className='' src='/Alpha1.png'>
         
       </img>
      
@@ -137,14 +137,14 @@ const router = useRouter()
      
 </section>
 
-<section id="Projects"  ref={scrollTargetRef} class=" h-screen mobile:h-[2000px] tablet:h-[2000px] 4k_screens:h-[1000px] tablet_large:h-[1200px] laptops:h-[1200px] bg-black border border-[#36a76e] ">
+<section id="Projects"  ref={scrollTargetRef} class=" h-screen mobile:h-[2000px] tablet:h-[2000px] 4k_screens:h-[1000px] tablet_large:h-[1200px] laptops:h-[1200px] desktops:h-[1200px] bg-black border border-[#36a76e] ">
   <div className='flex h-72 flex-row w-screen  justify-center items-center space-x-1'>
   <span className='text-5xl font-bold  text-[#36a76e] animate-ease-in-out animate-rotate-x animate-infinite mobile:text-3xl '>Top</span>
   <span className='text-5xl font-bold  text-[#f7f5f5] animate-ease-in-out animate-rotate-x animate-infinite mobile:text-3xl'>Projects</span>
   </div>
   <div className='flex flex-col justify-center  tablet_large:items-start items-center   '>
   <div className='flex w-full    justify-evenly max-h-fit  tablet_large:w-full  '>
-    <div className='grid grid-cols-4 gap-9   tablet_large:space-x-2 mobile:hidden tablet:grid-cols-1 tablet_large:grid-cols-2 laptops:grid-cols-2 desktops:grid-cols-2'>
+    <div className='grid grid-cols-4 gap-9   tablet_large:space-x-2 mobile:hidden tablet:grid-cols-1 tablet_large:grid-cols-2 laptops:grid-cols-2  desktops:grid-cols-2 '>
     <Cards image={"/nfto.jpg"} name={"Nft Marketplace"} Discription={"Developed a Next.js website using React, JSX, IPFS, Solidity-based ERC-721 contracts, Firebase, Tailwind CSS, and the Goerli faucet. The site includes minting, selling, and listing functionalities for NFTs, with a futuristic design and responsive layout."} ></Cards> 
     <Cards image={"/Hr.jpg"} name={"Hr Management System"} Discription={"Developed a website using Next.js, React framework, JSX, Tailwind CSS, and Supabase as the back-end. The website includes features such as admin-created appraisal sessions, employee answers, employee registration, departmental information, and more."}></Cards> 
     <Cards image={"/funds.jpg"} name={"Fundraising Website"} Discription={"Developed a fundraising website using React, JSX, Bootstrap, and MongoDB. The website includes features like donating to fundraisers, receiving notifications, setting up recurring donations, and creating personal fundraisers."}></Cards> 
